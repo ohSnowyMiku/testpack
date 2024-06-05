@@ -1,0 +1,9 @@
+{
+    "parent": "block/crop",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "crop": "blocks/nether_wart_stage_1"
+    }
+}

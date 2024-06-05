@@ -1,0 +1,9 @@
+{
+    "parent": "block/cross",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "cross": "blocks/double_plant_syringa_bottom"
+    }
+}

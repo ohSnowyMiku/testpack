@@ -1,0 +1,10 @@
+{
+    "parent": "block/stem_fruit",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "stem": "blocks/pumpkin_stem_disconnected",
+        "upperstem": "blocks/pumpkin_stem_connected"
+    }
+}

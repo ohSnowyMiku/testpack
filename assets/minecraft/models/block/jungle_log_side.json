@@ -1,0 +1,10 @@
+{
+    "parent": "block/column_side",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "end": "blocks/log_jungle_top",
+        "side": "blocks/log_jungle"
+    }
+}

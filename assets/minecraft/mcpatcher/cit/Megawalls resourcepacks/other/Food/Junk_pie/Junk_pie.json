@@ -1,0 +1,23 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "items/pumpkin_pie"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 224, 0, 0 ],
+            "translation": [ -0.25, -0.5, -3 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        },
+		"ground": {
+            "rotation": [ 0, 10, 0 ],
+            "translation": [ 0, 4, 0 ],
+            "scale": [ 2.3, 2.3, 2.3 ]
+		}
+    }
+}

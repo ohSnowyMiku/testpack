@@ -1,0 +1,9 @@
+{
+    "parent": "block/fence_nse",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "texture": "blocks/planks_acacia"
+    }
+}

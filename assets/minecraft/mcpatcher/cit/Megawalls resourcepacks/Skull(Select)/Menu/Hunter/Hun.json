@@ -1,0 +1,25 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "items/bow_standby",
+	"layer1":"item/phun",
+	"layer2":"item/p4"
+	
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 5, 80, -45 ],
+            "translation": [ 0.75, 0, 0.25 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        },
+        "gui":{
+                    
+                    "scale": [0.9, 0.9, 0.9 ]	
+        }
+    }
+}

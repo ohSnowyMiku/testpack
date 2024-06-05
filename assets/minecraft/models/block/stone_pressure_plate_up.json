@@ -1,0 +1,9 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "texture": "blocks/stone"
+    }
+}

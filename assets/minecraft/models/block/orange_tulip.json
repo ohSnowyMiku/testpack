@@ -1,0 +1,9 @@
+{
+    "parent": "block/cross",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "cross": "blocks/flower_tulip_orange"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "top": "blocks/furnace_top",
+        "front": "blocks/dispenser_front_horizontal",
+        "side": "blocks/furnace_side"
+    }
+}

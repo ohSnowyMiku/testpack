@@ -1,0 +1,9 @@
+{
+    "parent": "block/crop",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "crop": "blocks/carrots_stage_1"
+    }
+}

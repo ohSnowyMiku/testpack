@@ -1,0 +1,9 @@
+{
+    "parent": "block/button",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "texture": "blocks/stone"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/wall_ns",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "wall": "blocks/cobblestone_mossy"
+    }
+}

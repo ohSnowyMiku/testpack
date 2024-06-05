@@ -1,0 +1,10 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "end": "blocks/hay_block_top",
+        "side": "blocks/hay_block_side"
+    }
+}

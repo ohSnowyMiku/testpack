@@ -1,0 +1,11 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/cobblestone",
+        "top": "blocks/cobblestone",
+        "side": "blocks/cobblestone"
+    }
+}

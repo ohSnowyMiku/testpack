@@ -1,0 +1,9 @@
+{
+    "parent": "block/wall_nse",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "wall": "blocks/cobblestone"
+    }
+}

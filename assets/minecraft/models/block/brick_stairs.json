@@ -1,0 +1,11 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/brick",
+        "top": "blocks/brick",
+        "side": "blocks/brick"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "top": "blocks/jukebox_top",
+        "side": "blocks/jukebox_side"
+    }
+}

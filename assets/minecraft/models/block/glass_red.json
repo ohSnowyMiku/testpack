@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "all": "blocks/glass_red"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "block/cross",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "particle": "blocks/flower_allium",
+        "cross": "blocks/flower_allium"
+    }
+}

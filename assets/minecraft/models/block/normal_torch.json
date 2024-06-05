@@ -1,0 +1,9 @@
+{
+    "parent": "block/torch",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "torch": "blocks/torch_on"
+    }
+}

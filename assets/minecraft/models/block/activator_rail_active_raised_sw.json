@@ -1,0 +1,9 @@
+{
+    "parent": "block/rail_raised_sw",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "rail": "blocks/rail_activator_powered"
+    }
+}

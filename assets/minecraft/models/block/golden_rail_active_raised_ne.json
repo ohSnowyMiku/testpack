@@ -1,0 +1,9 @@
+{
+    "parent": "block/rail_raised_ne",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "rail": "blocks/rail_golden_powered"
+    }
+}

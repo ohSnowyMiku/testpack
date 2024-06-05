@@ -1,0 +1,10 @@
+{
+    "parent": "block/pane_new",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "edge": "blocks/glass_pane_top_brown",
+        "pane": "blocks/glass_brown"
+    }
+}

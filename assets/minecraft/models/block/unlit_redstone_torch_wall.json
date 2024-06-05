@@ -1,0 +1,9 @@
+{
+    "parent": "block/torch_wall",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "torch": "blocks/redstone_torch_off"
+    }
+}

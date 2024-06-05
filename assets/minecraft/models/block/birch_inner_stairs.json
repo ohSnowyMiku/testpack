@@ -1,0 +1,11 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/planks_birch",
+        "top": "blocks/planks_birch",
+        "side": "blocks/planks_birch"
+    }
+}

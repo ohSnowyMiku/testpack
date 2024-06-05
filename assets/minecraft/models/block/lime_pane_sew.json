@@ -1,0 +1,10 @@
+{
+    "parent": "block/pane_sew",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "edge": "blocks/glass_pane_top_lime",
+        "pane": "blocks/glass_lime"
+    }
+}

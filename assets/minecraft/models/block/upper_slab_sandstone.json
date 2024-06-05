@@ -1,0 +1,11 @@
+{
+    "parent": "block/upper_slab",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/sandstone_bottom",
+        "top": "blocks/sandstone_top",
+        "side": "blocks/sandstone_normal"
+    }
+}

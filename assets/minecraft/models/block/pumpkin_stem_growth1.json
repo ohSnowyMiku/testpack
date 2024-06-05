@@ -1,0 +1,9 @@
+{
+    "parent": "block/stem_growth1",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "stem": "blocks/pumpkin_stem_disconnected"
+    }
+}

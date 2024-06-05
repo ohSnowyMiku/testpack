@@ -1,0 +1,9 @@
+{
+    "parent": "block/pressure_plate_down",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "texture": "blocks/planks_oak"
+    }
+}

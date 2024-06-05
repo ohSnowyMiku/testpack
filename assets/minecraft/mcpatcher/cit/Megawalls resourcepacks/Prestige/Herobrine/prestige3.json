@@ -1,0 +1,6 @@
+{
+	"parent": "item/sku2",
+	"textures": {
+		"0": "item/p3hbr"
+	}   
+}

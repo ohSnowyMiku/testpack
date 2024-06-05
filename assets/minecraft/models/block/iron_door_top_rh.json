@@ -1,0 +1,10 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/door_iron_lower",
+        "top": "blocks/door_iron_upper"
+    }
+}

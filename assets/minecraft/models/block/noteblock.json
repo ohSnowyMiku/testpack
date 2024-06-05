@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+	
+		"particle": "block/empty",
+	 
+        "all": "blocks/noteblock"
+    }
+}

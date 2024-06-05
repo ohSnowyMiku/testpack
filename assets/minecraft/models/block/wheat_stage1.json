@@ -1,0 +1,9 @@
+{
+    "parent": "block/crop",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "crop": "blocks/wheat_stage_1"
+    }
+}

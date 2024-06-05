@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_mirrored_all",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "all": "blocks/bedrock"
+    }
+}

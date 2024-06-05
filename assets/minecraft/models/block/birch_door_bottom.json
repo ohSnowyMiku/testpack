@@ -1,0 +1,10 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+	 
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/door_birch_lower",
+        "top": "blocks/door_birch_upper"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/rail_curved",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "rail": "blocks/rail_normal_turned"
+    }
+}

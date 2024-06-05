@@ -1,0 +1,11 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/planks_jungle",
+        "top": "blocks/planks_jungle",
+        "side": "blocks/planks_jungle"
+    }
+}

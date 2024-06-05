@@ -1,0 +1,14 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+	
+		"particle": "block/empty",
+	 
+	 
+		"particle": "block/empty",
+	 
+        "bottom": "blocks/planks_birch",
+        "top": "blocks/planks_birch",
+        "side": "blocks/planks_birch"
+    }
+}
