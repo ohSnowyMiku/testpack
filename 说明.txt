@@ -73,6 +73,7 @@
 	8---红色箭头覆盖
 		现在在玩家身上的箭会显示红色的箭头(不会影响其他未射到玩家身上的箭头纹理)
 		//(在"\assets\minecraft\textures"路径下删除"entity"文件夹即可移除此功能)
+		//(彩虹变色箭头覆盖在v1.6.0版本开始测试,如果想要禁用需要在"\assets\minecraft\mcpatcher"路径下删除"anim"文件夹即可禁用此功能)
 -----------------------------------------------------------------------------------
 
 
@@ -122,3 +123,88 @@ Hypixel
 	v1.5.0 现在菜单中p1/p2职业也会显示特殊的纹理,盔甲耐久显示不会再出现绿线,并且为海盗的特殊物品添加了纹理(无耐久胸甲),皮肤购买界面也添加了部分纹理,修复部分错误显示纹理的bug(饮用喷溅药水显示等...)(由于d服特殊物品没有特殊名称,如果给耐久胸甲添加纹理会导致其他部分纹理无法正常显示) 2024/2/2
 
 	v1.6.0 beta1:修改选择职业的物品为对应的皮肤头颅,放大了补给品及手持显示
+
+----------------------------------------------------------------------------------------
+
+(Machine translation) Textures supports Chinese and English server languages, and the current functions are:
+
+
+
+1---Enlarges healing items (potions, milk buckets, etc.) and diamond-related items, special items (pirate treasure, emerald drops, armor, etc.)
+	//(If you want to delete this effect, you need to delete the "item" folder under the 
+	"\assets\minecraft\models" path, the "model" folder under the 
+	"\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\Amror" path, and the "Swords", "other", and "bows" folders under the 
+	"\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks" path)
+//(Pirate special item textures are all in the same folder as the treasure special model, and can be replaced with textures of the same name)
+
+
+
+2---Interface optimization:
+	(1) Better skin selection, career purchase/selection interface. Beautify the skull model and dye selector of the skin & career selection interface to make it easier to preview and select.
+
+	(2) Optimize the task NPC interface (a yellow exclamation mark will be displayed for tasks to be accepted, a red cross will be displayed for tasks that have been accepted but not completed, and a green check mark will be displayed for tasks that have been completed.)
+
+	(3) Optimize the mastery interface (now P1/P2/P3/P4 professions will display special texture skins on the career selection interface) Note: All texture images are taken from Hypixel. Since the D server self-created profession cannot find the mastery skin image file, there are only the initial profession skin images, and no mastery special images. (P1 skin is randomly selected by me, P2 is a legendary skin, P3 is a P3 skin, and P4 is P3 with a gold border)
+
+	// (If you want to delete the skull preview effect, just delete the "Skull" folder under the "\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\Skull(Select)" path.
+Similarly, to delete the dye selector, you need to delete the "Select" folder in the same path)
+	// (If you want to remove the skull texture in the career selection interface, you need to delete the "Menu" folder in the "\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\Skull(Select)" path)
+	// (To delete the quest interface: delete the "quest" folder in "assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\Quest")
+	// (To delete the mastery interface: delete the "Prestige" folder in the "assets\minecraft\mcpatcher\cit\Megawalls resourcepacks" path)
+
+
+
+3---Barrier block identification line: 
+	When you place a wooden board, raw stone, or soil close to the barrier, the texture will change, and there will be a white line identification on the side close to the barrier
+
+	//(If you want to delete this texture overlay, you need to delete the "ctm" folder in the "\assets\minecraft\mcpatcher" path)
+
+
+
+
+4---Armor durability tips: 
+	When the durability of iron/diamond armor is insufficient, its texture will change and different colored lines will be displayed. [Breastplate/pants] durability less than 100/50/20 will display green/yellow/red lines, [helmet/shoes] durability less than 80/50/20 will display green/yellow/red lines
+	
+	//(If you want to delete this effect, please delete the "iron" and "diamond" folders in the "\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\Amror" path)
+//Green lines will no longer appear after version v1.5.0
+
+
+
+5---Third-person handheld supplies preview: 
+	When holding items such as potions or golden apple milk buckets, the display position of items in the third-person perspective will be easier to see
+
+****Tip**** If the item is displayed facing downward, please check whether the function of changing the 1.7 handheld items is enabled. (Take LunarClient as an example: Check the Third Person Held Items in 1.7 Visuals in Mdos. When the function is turned on, the location of the supplies will not be displayed correctly)
+
+//(If you want to delete this effect, you need to change the json file of the supplies. Take Phoenix Medicine as an example: First, you need to find the "bottle_splash.json" file in the "assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\other\Pot \Phoenix's_Tears_of_Regeneration" path, open it and find:
+
+thirdperson": {
+"rotation": [ 204, 0, 0 ],
+"translation": [ -0.25, -0.5, -2.5 ],
+"scale": [ 0.55, 0.55, 0.55 ]
+},
+
+Replace the values ​​in the brackets with:
+
+"thirdperson": {
+"rotation": [ -90, 0, 0 ],
+"translation": [ 0, 1, -3 ],
+"scale": [ 0.55, 0.55, 0.55 ]
+},
+
+You can change to the original display effect
+
+//To modify the handheld preview of professional potions, you need to delete the "Etc" folder in the "\assets\minecraft\mcpatcher\cit\Megawalls resourcepacks\other\Pot" path
+//Golden apple and milk bucket "\assets\minecraft\models\item"
+
+
+
+7---No particles when blocks are destroyed
+//(Delete the "block" folder in the "\assets\minecraft\models" path to remove this effect)
+
+
+
+8---Red arrow overlay
+	Arrows that hit the player will now display red arrows (will not affect other arrow textures that have not hit the player)
+
+//(Delete the "entity" folder in the "\assets\minecraft\textures" path to remove this feature)
+//(The rainbow color-changing arrow overlay has been tested since version v1.6.0. If you want to disable it, delete the "anim" folder in the "\assets\minecraft\mcpatcher" path to disable this feature)
