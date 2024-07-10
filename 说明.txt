@@ -73,7 +73,8 @@
 	8---红色箭头覆盖
 		现在在玩家身上的箭会显示红色的箭头(不会影响其他未射到玩家身上的箭头纹理)
 		//(在"\assets\minecraft\textures"路径下删除"entity"文件夹即可移除此功能)
-		//(彩虹变色箭头覆盖在v1.6.0版本开始测试,如果想要禁用需要在"\assets\minecraft\mcpatcher"路径下删除"anim"文件夹即可禁用此功能)
+		//(彩虹变色箭头覆盖在v1.6.0版本开始测试,如果想启用彩虹变色箭头覆盖需要把"\assets\minecraft\mcpatcher"路径下"ani"文件夹重命名		为"anim"即可启用)
+		//(如果想要禁用需要在"\assets\minecraft\mcpatcher"路径下删除"anim"文件夹或重命名即可禁用此功能)
 -----------------------------------------------------------------------------------
 
 
@@ -122,7 +123,7 @@ Hypixel
 
 	v1.5.0 现在菜单中p1/p2职业也会显示特殊的纹理,盔甲耐久显示不会再出现绿线,并且为海盗的特殊物品添加了纹理(无耐久胸甲),皮肤购买界面也添加了部分纹理,修复部分错误显示纹理的bug(饮用喷溅药水显示等...)(由于d服特殊物品没有特殊名称,如果给耐久胸甲添加纹理会导致其他部分纹理无法正常显示) 2024/2/2
 
-	v1.6.0 beta1:修改选择职业的物品为对应的皮肤头颅,放大了补给品及手持显示
+	v1.6.0 修改选择职业的物品为对应的皮肤头颅,为新更新的界面提供纹理更新,修复了力量弓纹理冲突的bug,放大了补给品及手持显示,新添加了彩虹箭头覆盖显示测试 2024/7/10
 
 ----------------------------------------------------------------------------------------
 
@@ -204,7 +205,7 @@ You can change to the original display effect
 
 
 8---Red arrow overlay
-	Arrows that hit the player will now display red arrows (will not affect other arrow textures that have not hit the player)
-
+Arrows on the player will now display red arrows (will not affect other arrow textures that have not been shot at the player)
 //(Delete the "entity" folder in the "\assets\minecraft\textures" path to remove this feature)
-//(The rainbow color-changing arrow overlay has been tested since version v1.6.0. If you want to disable it, delete the "anim" folder in the "\assets\minecraft\mcpatcher" path to disable this feature)
+//(The rainbow color-changing arrow overlay has been tested since version v1.6.0. If you want to enable the rainbow color-changing arrow overlay, you need to rename the "ani" folder in the "\assets\minecraft\mcpatcher" path to "anim" to enable it)
+//(If you want to disable it, you need to delete the "anim" folder in the "\assets\minecraft\mcpatcher" path or rename it to disable this feature)

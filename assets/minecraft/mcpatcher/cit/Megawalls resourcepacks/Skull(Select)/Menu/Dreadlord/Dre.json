@@ -1,20 +1,6 @@
 {
-    "parent": "builtin/generated",
-	"textures":{
-                "layer0":"items/netherbrick",
-	"layer1":"item/pdre",
-	"layer2":"item/p4"
-},
-  
-    "display": {
-        "thirdperson": {
-            "rotation": [ 10, -45, 170 ],
-            "translation": [ 0, 1.5, -2.75 ],
-            "scale": [ 0.375, 0.375, 0.375 ]
-        },
-        "gui":{
-                    
-                    "scale": [0.9, 0.9, 0.9 ]	
-        }
-    }
+	"parent": "item/sku2",
+	"textures": {
+		"0": "item/pdre"
+	}   
 }
